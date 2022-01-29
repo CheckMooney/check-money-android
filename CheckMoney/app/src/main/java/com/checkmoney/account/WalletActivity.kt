@@ -689,7 +689,6 @@ class WalletActivity : AppCompatActivity(), CalTotal,
 
     //token과 유저정보 가져옴, 그 외 세팅
     private fun initSetting() {
-        Log.d("!!","!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
         ThisTime.cal.time = Date()
         textYm.text = df.format(ThisTime.cal.time)
         walletData = intent.getParcelableExtra("data")!!
